@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+ main () 
+{
+  
+ char lastName[50];
+ char firstName[50];
+
+float prices[] = 
+    { 
+    8.99, 10.99, 12.99, 15.49, 10.99, 12.99, 14.99, 16.49, 11.99, 13.79,
+    15.49, 17.79, 12.29, 13.99, 15.99, 18.49, 12.29, 13.99, 15.99, 18.49, 
+    12.59, 14.29, 16.49, 18.99, 12.99, 14.79, 16.99, 19.49, 12.99, 14.79, 
+    16.99, 19.49
+        
+    };
+  
+printf ("PIZZA SPECIALTIES\n\n");
+  
+ 
+printf ("\t\t\t\t\t\t\t\t SM\t\t MD\t\t\t LG\t\t\t XLG\n");
+printf ("Chesse\t\t\t\t\t\t\t $%.2f \t  $%.2f \t $%.2f \t $%.2f\n~ the classic and the best ~\n\n", prices[0], prices[1], prices[2], prices[3]);
+printf ("Veggie\t\t\t\t\t\t\t $%.2f\t  $%.2f \t $%.2f \t $%.2f\n~ any five (5) veggie toppings ~\n\n", prices[4], prices[5], prices[6], prices[7]);
+printf ("Hawaiian\t\t\t\t\t\t $%.2f\t  $%.2f \t $%.2f \t $%.2f\n~ pineapple & ham ~\n\n", prices[8], prices[9], prices[10], prices[11]);
+printf ("Chicken Club\t\t\t\t\t $%.2f\t  $%.2f \t $%.2f \t $%.2f\n~ chicken, tomatoes, & cheese ~\n\n", prices[12], prices[13], prices[14], prices[15]);
+printf ("Chicken Bacon Ranch\t\t\t\t $%.2f\t  $%.2f \t $%.2f \t $%.2f\n~ chicken, tomatoes, & ranch ~\n\n", prices[16], prices[17], prices[18], prices[19]);
+printf (" BBQ Chicken\t\t\t\t\t $%.2f\t  $%.2f \t $%.2f \t $%.2f\n~ chicken & bbq sauce ~\n\n", prices[20], prices[21], prices[22], prices[23]);
+printf (" The Deluxe\t\t\t\t\t\t $%.2f\t  $%.2f \t $%.2f \t $%.2f\n~ any three (3) meat plus any three (3) veggie toppings ~\n\n", prices[24], prices[25], prices[26], prices[27]);
+printf (" Meat Lover\t\t\t\t\t\t $%.2f\t  $%.2f \t $%.2f \t $%.2f\n~ pepperoni, sausage, bacon, ham ~ \n\n", prices[28], prices[29], prices[30], prices[31]);
+scanf("%s %s",&lastName, &firstName);
+printf("MENU PROVIDED BY %s, %s\n",lastName,firstName);
+
+
+
+return 0;
+}
+
+
